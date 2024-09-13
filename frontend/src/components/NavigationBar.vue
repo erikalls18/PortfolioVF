@@ -3,12 +3,12 @@
       
       <nav class="navbar">
           <div class="container">
-              <router-link to="/" class="brand">
-               
+              <div class="brand">
+    
                   <span class="title">Erika Leguizamon</span>  
                   <img src="/images/wallpaper.jpg" width={200} height={200} className="img-main" alt="wallpaper" />
                   
-              </router-link>
+              </div>
 
               <ul class="nav-links">
                 <li>
@@ -19,11 +19,9 @@
                   </li>
                  
                   <li>
-                      <router-link to="/login" class="nav-link">Projects</router-link>
+                      <router-link to="/projects" class="nav-link">Projects</router-link>
                   </li>
-                  <li>
-                      <router-link to="/login" class="nav-link">Contact</router-link>
-                  </li>
+                 
                   
               </ul>
           </div>
@@ -33,6 +31,8 @@
 
 
 </template>
+
+
 
 
 <script>
@@ -47,7 +47,7 @@ export default{
 <style>
 .nav-container{
 margin: 0%;
-/*background: linear-gradient(135deg, #24242b, #790379); */
+
 }
 .navbar {
 
@@ -55,10 +55,6 @@ border-radius: 0.5rem;
 padding: 1rem;
 margin: auto;
 width: 90%;
-/* background-color: #24242b;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
-
-
 
 }
 
@@ -117,6 +113,53 @@ object-fit: cover;
 margin: auto;
 margin-left: 10px;
 
+
+}
+
+.title-skills{
+    margin-top: 50px;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+
+
+
+.nav-links{
+    font-size: 22px;
+} 
+
+.title{
+    font-size: 22px;
+}
+
+}
+
+@media (max-width: 768px) {
+
+    .nav-link{
+    font-size: 20px;
+    margin-left: 2px;
+}
+
+  
+}
+
+@media (max-width: 480px) {
+
+    .title{
+        display: none;
+    }
+
+    .nav-link{
+    font-size: 18px;
+    margin-left: 1px;
+    margin-right: 10px;
+    }
+
+    .navbar {
+    width: 70%;
+    }
 
 }
 

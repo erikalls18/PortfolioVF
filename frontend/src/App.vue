@@ -42,9 +42,4 @@ body{
   scroll-behavior: smooth;
 }
 
-
-
-
-
-
 </style>
