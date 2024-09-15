@@ -2,7 +2,7 @@
   <div class="about-container">
     <div class="container-elements">
       <div class="container-img">
-        <img src="/images/profile.jpg" class="img-profile" alt="wallpaper" />
+        <img src="/images/profile2.jpeg" class="img-profile" alt="wallpaper" />
         <div @click="toggleSoftwareSkills" class="container-info ">
           <h2 class="pointer">Contact Info</h2>
           <img src="/images/chevron.png" class="chevron" alt="wallpaper" />
@@ -24,11 +24,11 @@
           <h2 class="pointer">Soft Skills</h2>
           <img src="/images/chevron.png" class="chevron" alt="wallpaper" />
           <div v-if="showSoftskills" class="container-skills">
-            <p class = "data">Quick Learner</p>
-            <p class = "data">Problem-solving</p>
+            <p class = "data">Quick learner</p>
+            <p class = "data">Problem solver</p>
             <p class = "data">Critical thinker</p>
             <p class = "data">Collaborative teamwork</p>
-            <p class = "data">Detail-oriented</p>
+            <p class = "data">Detail oriented</p>
           </div>
         </div>
        
@@ -163,10 +163,11 @@ export default {
 }
 
 .img-profile {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   margin-top: 5px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .description {

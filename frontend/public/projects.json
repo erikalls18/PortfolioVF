@@ -34,7 +34,7 @@
 {    "id": "4",
     "name" : "Predicting Car Prices",
     "image" :"/images/linear12.png",
-    "description": "This project aims to analyze the factors affecting car prices using various regression techniques. By employing Linear Regression, Ridge Regression, and Polynomial Regression, the goal is to identify and understand which variables—such as engine size, year of manufacture, and mileage—significantly influence car values. The project seeks to enhance predictive accuracy and model performance, ultimately providing insights into how different attributes impact car pricing",
+    "description": "This project aims to analyze the factors affecting car prices using various regression techniques. By employing Linear Regression, Ridge Regression, and Polynomial Regression, the goal is to identify and understand which variables—such as engine size, year of manufacture, and mileage—significantly influence car values. The project seeks to enhance predictive accuracy and model performance, ultimately providing insights into how different attributes impact car pricing.",
      "technologies": "Python (Pandas, Matplotlib ) and Jupyter Notebbok",
      "source": "https://deepnote.com/app/ml-projects-961e/Linear-Regression-f2c845a9-c8e0-45cc-ad92-4ab31be662b8?__run=true",
      "category": "machine-learning"
@@ -43,7 +43,7 @@
 {    "id": "5",
     "name" : " Predicting Bank Client Subscription",
     "image" :"/images/logistic4.png",
-    "description": "This project involves developing and evaluating predictive models to determine if clients of a Portuguese bank will accept a term deposit. By using classification models like Random Forest, the project assesses the impact of feature selection on model accuracy and robustness. Two models are compared: one with 7 features, which slightly improves accuracy, and another with 6 features, which enhances recall and AUC of the ROC curve despite a minor drop in accuracy. The analysis highlights the need for techniques like oversampling to address dataset class imbalance and improve predictive performance",
+    "description": "This project involves developing and evaluating predictive models to determine if clients of a Portuguese bank will accept a term deposit. By using classification models like Random Forest, the project assesses the impact of feature selection on model accuracy and robustness. Two models are compared: one with 7 features, which slightly improves accuracy, and another with 6 features, which enhances recall and AUC of the ROC curve despite a minor drop in accuracy. The analysis highlights the need for techniques like oversampling to address dataset class imbalance and improve predictive performance.",
     "technologies": "Python (Pandas, Matplotlib, Sklearn, Seaborn ) and Jupyter Notebbok",
     "source": "https://deepnote.com/app/ml-projects-961e/Logistic-Regression-6f23f623-e288-492b-bfba-aa98a14c6da5",
     "category": "machine-learning"
@@ -71,7 +71,7 @@
 {    "id": "8",
     "name" : " Prediction of Obesity",
     "image" :"/images/matrix.png",
-    "description": "The main goal of this project is to create a predictive model to estimate the likelihood of obesity in individuals using various independent variables. We are particularly interested in factors that may contribute to obesity. The variables we consider include demographic details such as gender and age, dietary habits, family history of obesity, physical activity behaviors, and overall lifestyle",
+    "description": "The main goal of this project is to create a predictive model to estimate the likelihood of obesity in individuals using various independent variables. I am particularly interested in factors that may contribute to obesity. The variables I consider include demographic details such as gender and age, dietary habits, family history of obesity, physical activity behaviors, and overall lifestyle.",
     "technologies": "Python (Pandas, Matplotlib, Sklearn, Seaborn ) and Jupyter Notebbok",
     "source": "https://deepnote.com/app/ml-projects-961e/Predicting-Obesity-levels-72fe343e-3684-49a0-bd87-949d6ed12932",
     "category": "machine-learning"
